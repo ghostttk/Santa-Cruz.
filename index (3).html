@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja VIP GTA RP</title>
+  <style>
+    /* Reset básico e configuração de tipografia */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #1c1c1e; /* fundo escuro */
+      color: #f2f2f2;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      font-size: 16px;
+    }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    /* Cabeçalho */
+    header {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      font-weight: 600;
+      color: #fff;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+    
+    /* Seção de Oferta VIP */
+    .vip-offer {
+      background-color: #2c2c2e;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-bottom: 60px;
+    }
+    .vip-offer h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 500;
+      text-align: center;
+      color: #fff;
+    }
+    .vip-offer ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .vip-offer li {
+      padding: 20px 0;
+      border-bottom: 1px solid #3a3a3c;
+    }
+    .vip-offer li:last-child {
+      border-bottom: none;
+    }
+    .vip-offer h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      font-weight: 400;
+      color: #fff;
+    }
+    .vip-offer p {
+      font-size: 1rem;
+      color: #ccc;
+      margin-bottom: 10px;
+    }
+    .vip-offer p strong {
+      color: #fff;
+    }
+    .vip-offer .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      border: 1px solid #fff;
+      border-radius: 25px;
+      background-color: transparent;
+      color: #fff;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .vip-offer .btn:hover {
+      background-color: #fff;
+      color: #1c1c1e;
+    }
+    .center {
+      text-align: center;
+    }
+    
+    /* Seção de Compra */
+    #comprar {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    #comprar h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      font-weight: 500;
+      color: #fff;
+    }
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    form div {
+      margin-bottom: 20px;
+    }
+    form label {
+      display: block;
+      font-size: 0.9rem;
+      color: #ccc;
+      margin-bottom: 5px;
+    }
+    form input,
+    form select {
+      width: 100%;
+      padding: 12px 15px;
+      border: 1px solid #3a3a3c;
+      border-radius: 10px;
+      font-size: 1rem;
+      background-color: #2c2c2e;
+      color: #fff;
+    }
+    form input::placeholder {
+      color: #aaa;
+    }
+    form button {
+      width: 100%;
+      padding: 15px;
+      border: none;
+      border-radius: 25px;
+      background-color: #fff;
+      color: #1c1c1e;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #ddd;
+    }
+    
+    /* Rodapé */
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      font-size: 0.9rem;
+      color: #777;
+      border-top: 1px solid #3a3a3c;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header>
+      <h1>Loja VIP GTA RP</h1>
+      <p>Eleve sua experiência no roleplay com acesso VIP exclusivo</p>
+    </header>
+    
+    <!-- Seção de Planos VIP -->
+    <section class="vip-offer">
+      <h2>Planos VIP</h2>
+      <ul>
+        <li>
+          <h3>VIP Bronze</h3>
+          <p>Acesso a canais exclusivos e prioridade no atendimento.</p>
+          <p><strong>Preço:</strong> R$ 49,90/mês</p>
+        </li>
+        <li>
+          <h3>VIP Prata</h3>
+          <p>Benefícios do Bronze + skins exclusivas e eventos.</p>
+          <p><strong>Preço:</strong> R$ 89,90/mês</p>
+        </li>
+        <li>
+          <h3>VIP Ouro</h3>
+          <p>Todos os benefícios anteriores + status VIP e personalização exclusiva.</p>
+          <p><strong>Preço:</strong> R$ 129,90/mês</p>
+        </li>
+      </ul>
+      <div class="center">
+        <a href="#comprar" class="btn">Comprar Agora</a>
+      </div>
+    </section>
+    
+    <!-- Seção de Compra -->
+    <section id="comprar">
+      <h2>Realize sua Compra</h2>
+      <form action="processar_compra.php" method="post">
+        <div>
+          <label for="nome">Nome Completo:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        </div>
+        <div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+        </div>
+        <div>
+          <label for="plano">Escolha o Plano:</label>
+          <select id="plano" name="plano" required>
+            <option value="">Selecione um plano</option>
+            <option value="bronze">VIP Bronze - R$ 49,90/mês</option>
+            <option value="prata">VIP Prata - R$ 89,90/mês</option>
+            <option value="ouro">VIP Ouro - R$ 129,90/mês</option>
+          </select>
+        </div>
+        <button type="submit">Confirmar Compra</button>
+      </form>
+    </section>
+    
+    <!-- Rodapé -->
+    <footer>
+      <p>&copy; 2025 Loja VIP GTA RP. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>
